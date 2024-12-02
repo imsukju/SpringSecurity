@@ -48,7 +48,5 @@ public class AppConfig {
 //		return null;
 //		
 //	}
-	
-	@Bean
-	public 
+
 }

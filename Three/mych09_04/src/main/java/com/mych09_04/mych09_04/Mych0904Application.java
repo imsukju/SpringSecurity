@@ -1,13 +1,13 @@
-package com.springScurity3.SpringSecurity3;
+package com.mych09_04.mych09_04;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringSecurity3Application {
+public class Mych0904Application {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringSecurity3Application.class, args);
+		SpringApplication.run(Mych0904Application.class, args);
 	}
 
 }

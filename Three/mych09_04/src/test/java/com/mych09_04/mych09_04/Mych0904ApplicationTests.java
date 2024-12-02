@@ -1,10 +1,10 @@
-package com.springScurity3.SpringSecurity3;
+package com.mych09_04.mych09_04;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SpringSecurity3ApplicationTests {
+class Mych0904ApplicationTests {
 
 	@Test
 	void contextLoads() {
