@@ -98,9 +98,3 @@ ssia-ch6-ex1/
 1. Spring Security의 **AuthenticationProvider**와 사용자 정의 인증 로직.
 2. Spring JPA를 사용한 엔티티와 데이터베이스 관리.
 3. CSRF 방어 및 HTML 템플릿 활용.
-
----
-
-## 라이선스
-
-이 프로젝트는 MIT License에 따라 라이선스가 부여됩니다.
