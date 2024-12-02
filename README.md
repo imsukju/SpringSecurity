@@ -83,8 +83,8 @@ Spring Security의 기본 개념부터 UserDetails, PasswordEncoder, 인증 토�
 
 ## 사용 기술
 
-- **Spring Security**
-- **Spring Boot**
-- **Spring Data JPA**
-- **JWT (JSON Web Token)**
+- **Spring Security**[스프링Security 설명 모음](https://github.com/imsukju/MyStudyNote/tree/main/SpringSecurity)
+- **Spring Boot**[SpringBoot 설명모음](https://github.com/imsukju/MyStudyNote/tree/main/SpringSecurity)
+- **Spring Data JPA**[JPA란?](https://github.com/imsukju/MyStudyNote/tree/main/JPA)
+- **JWT (JSON Web Token)**[설명](https://github.com/imsukju/MyStudyNote/blob/main/SpringSecurity/JWT%ED%86%A0%ED%81%B0.md)
 - **Thymeleaf, JSP** (템플릿 엔진)
