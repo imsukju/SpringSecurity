@@ -5,6 +5,7 @@ Spring Security In Action 책의 Chapter 14 예제 프로젝트입니다. 이 �
 ---
 
 ## 프로젝트 구조
+```
 ssia-ch14-ex4/
 ├── src/
 │   ├── main/
@@ -23,7 +24,7 @@ ssia-ch14-ex4/
 │   │   ├── application.yml                              # 애플리케이션 설정
 ├── pom.xml                                              # Maven 프로젝트 설정
 ├── mvnw, mvnw.cmd                                       # Maven Wrapper 스크립트
-
+```
 
 ---
 

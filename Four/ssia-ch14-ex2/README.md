@@ -5,8 +5,28 @@ Spring Security In Action 책의 Chapter 14 예제 프로젝트입니다. 이 �
 ---
 
 ## 프로젝트 구조
-ssia-ch14-ex2/ ├── src/ │ ├── main/ │ │ ├── java/com/example/ssia/ │ │ │ ├── Main.java # 메인 애플리케이션 클래스 │ │ │ ├── config/ │ │ │ │ └── SecurityConfig.java # Spring Security 설정 │ │ │ ├── controllers/ │ │ │ │ ├── AdminController.java # 관리자 페이지 컨트롤러 │ │ │ │ └── UserController.java # 사용자 페이지 컨트롤러 │ │ │ ├── handler/ │ │ │ │ ├── LoginSuccessHandler.java # 로그인 성공 핸들러 │ │ │ │ └── LoginFailureHandler.java # 로그인 실패 핸들러 │ ├── resources/ │ │ ├── application.yml # 애플리케이션 설정 │ │ ├── templates/ │ │ │ ├── admin.html # 관리자 페이지 HTML 템플릿 │ │ │ └── user.html # 사용자 페이지 HTML 템플릿 ├── pom.xml # Maven 프로젝트 설정 ├── mvnw, mvnw.cmd # Maven Wrapper 스크립트
-
+```
+ssia-ch14-ex2/
+├── src/
+│   ├── main/
+│   │   ├── java/com/example/ssia/
+│   │   │   ├── Main.java                                 # 메인 애플리케이션 클래스
+│   │   │   ├── config/
+│   │   │   │   └── SecurityConfig.java                  # Spring Security 설정
+│   │   │   ├── controllers/
+│   │   │   │   ├── AdminController.java                 # 관리자 페이지 컨트롤러
+│   │   │   │   └── UserController.java                  # 사용자 페이지 컨트롤러
+│   │   │   ├── handler/
+│   │   │   │   ├── LoginSuccessHandler.java             # 로그인 성공 핸들러
+│   │   │   │   └── LoginFailureHandler.java             # 로그인 실패 핸들러
+│   ├── resources/
+│   │   ├── application.yml                              # 애플리케이션 설정
+│   │   ├── templates/
+│   │   │   ├── admin.html                               # 관리자 페이지 HTML 템플릿
+│   │   │   └── user.html                                # 사용자 페이지 HTML 템플릿
+├── pom.xml                                              # Maven 프로젝트 설정
+├── mvnw, mvnw.cmd                                       # Maven Wrapper 스크립트
+```
 ---
 
 ## 주요 기능
