@@ -5,7 +5,27 @@ Spring Security In Action 책의 Chapter 14 예제 프로젝트입니다. 이 �
 ---
 
 ## 프로젝트 구조
-ssia-ch14-ex3/ ├── src/ │ ├── main/ │ │ ├── java/com/example/ssia/ │ │ │ ├── Main.java # 메인 애플리케이션 클래스 │ │ │ ├── config/ │ │ │ │ ├── SecurityConfig.java # Spring Security 설정 │ │ │ │ └── CustomAuthenticationFilter.java # 사용자 정의 인증 필터 │ │ │ ├── controllers/ │ │ │ │ ├── DashboardController.java # 대시보드 컨트롤러 │ │ │ │ └── LoginController.java # 로그인 페이지 컨트롤러 │ │ │ ├── services/ │ │ │ │ └── CustomUserDetailsService.java # 사용자 정의 UserDetailsService │ ├── resources/ │ │ ├── application.properties # 애플리케이션 설정 │ │ ├── templates/ │ │ │ ├── dashboard.html # 대시보드 HTML 템플릿 │ │ │ └── login.html # 로그인 페이지 HTML 템플릿 ├── pom.xml # Maven 프로젝트 설정 ├── mvnw, mvnw.cmd # Maven Wrapper 스크립트
+ssia-ch14-ex3/
+├── src/
+│   ├── main/
+│   │   ├── java/com/example/ssia/
+│   │   │   ├── Main.java                                 # 메인 애플리케이션 클래스
+│   │   │   ├── config/
+│   │   │   │   └── SecurityConfig.java                  # Spring Security 설정
+│   │   │   ├── controllers/
+│   │   │   │   ├── DashboardController.java             # 대시보드 컨트롤러
+│   │   │   │   └── LoginController.java                 # 로그인 페이지 컨트롤러
+│   │   │   ├── filters/
+│   │   │   │   └── CustomAuthenticationFilter.java      # 사용자 정의 인증 필터
+│   │   │   ├── services/
+│   │   │   │   └── CustomUserDetailsService.java        # 사용자 정의 UserDetailsService
+│   ├── resources/
+│   │   ├── application.properties                       # 애플리케이션 설정
+│   │   ├── templates/
+│   │   │   ├── dashboard.html                           # 대시보드 HTML 템플릿
+│   │   │   └── login.html                               # 로그인 페이지 HTML 템플릿
+├── pom.xml                                              # Maven 프로젝트 설정
+├── mvnw, mvnw.cmd                                       # Maven Wrapper 스크립트
 
 ---
 
